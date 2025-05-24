@@ -1,0 +1,141 @@
+.mainContainer{
+  background-color: gray;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  padding:40px;
+  align-items: flex-start;
+  gap: 20px;
+}
+.container{
+    position: relative;
+    background-color:rgb(28, 31, 31);
+    height: 110vh;
+    width: 1500px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+}
+#left{
+  display: flex;
+  position: relative;
+  height: 110vh;
+  width: 400px;
+  background-color: blueviolet;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+
+}
+
+.logo{
+  position: absolute;
+  top: 100px;
+  left: 80px;
+  display: flex;
+
+  
+  height: 200px;
+  width: 200px;
+}
+    
+    .search-box {
+        position: absolute;
+        top: 50px;
+        left: 60px;
+        display: flex;
+        align-items: left;
+        gap: 5px;
+        margin-bottom: 20px;;
+        border-radius: 20px;
+        border: none;
+        
+    }
+   
+    
+.search-box button{
+    
+    padding: 6px 10px;
+  border: none;
+  background-color: #e6dada;
+  color: white;
+  cursor: pointer;
+  border-radius: 0 20px 20px 0;
+}
+
+
+.temperature{
+  
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 80px;
+  
+   display: inline;
+   
+   position: absolute;
+   top: 350px;
+   left: 80px;
+}
+.degree{
+  font-size: 60%;
+  vertical-align: super;
+}
+.day{
+  
+  font-family: 'Times New Roman', Times, serif;
+   display: inline;
+   position: absolute;
+   top: 430px;
+   left: 80px;
+}
+.line {
+   position: absolute;
+   top: 470px;
+   left: 80px;
+   background-color: transparent;  
+}
+.img1{
+  position: absolute;
+  top: 515px;
+   left: 80px;
+   width: 30px;
+   height: 30px;
+}
+.Text1{
+ position: absolute;
+  top: 525px;
+   left: 120px;
+}
+.img2{
+  position: absolute;
+  top: 550px;
+   left: 80px;
+   width: 30px;
+   height: 30px;
+}
+.Text2{
+ position: absolute;
+  top: 560px;
+   left: 120px;
+}
+.box1{
+  position: absolute;
+    background-color:white;
+    height: 80px;
+    width: 250px;
+    display: flex;
+    
+    justify-content: center;
+    border-radius: 20px;
+    top: 600px;
+    left: 80px;
+}
+#right{
+  height: 110vh;
+  width: 1017px;;
+  background-color: yellowgreen;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+}
