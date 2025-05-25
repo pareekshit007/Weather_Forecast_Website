@@ -22,7 +22,7 @@
   position: relative;
   height: 110vh;
   width: 400px;
-  background-color: blueviolet;
+  background-color: white;
   border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 
@@ -128,11 +128,12 @@
     border-radius: 20px;
     top: 600px;
     left: 80px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.8);
 }
 #right{
   height: 110vh;
   width: 1017px;;
-  background-color: yellowgreen;
+  background-color: yellow;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -163,6 +164,7 @@
     position: absolute;
     top: 40px;
     right: 250px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.8);
   }
   .circle2 {
     width: 40px;
@@ -177,6 +179,7 @@
     position: absolute;
     top: 40px;
     right: 190px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.8);
   }
   .userprofile{
     top: 35px;
@@ -186,6 +189,7 @@
     height: 50px;
     background-color: black;
     border-radius: 10px;
+    box-shadow: 0 0 20px rgba(128, 128, 128, 0.8);
   }
   .userprofile img{
     width: 50px;
@@ -199,13 +203,14 @@
   height: 150px;
   right: 90px;
   top: 130px;
-  background-color: blue;
+  background-color: rgba(0, 0, 0, 0);;
   border-radius: 20px;
   display: flex;
   gap: 20px;
   padding: 10px;
   box-sizing: border-box;
   align-items: center;
+  
 }
 
 .smallbox {
@@ -213,4 +218,163 @@
   width: 100px;
   background-color: white;
   border-radius: 20px;
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.8);
+  
 }
+.head2{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  margin-left: 40px;
+  top: 300px;
+  position: absolute;
+
+
+}
+#lowerright{
+ position: absolute;
+    width: 850px;
+    height: 360px;
+    right: 90px;
+    background-color: transparent;
+    top: 360px;
+    border-radius: 20px;
+}
+.blue-section {
+  background-color: trans;
+  padding:5px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  /* 3 columns */
+  grid-template-rows: repeat(2, 1fr);     /* 2 rows */
+  gap: 20px;                              /* equal spacing */
+  border-radius: 15px;
+  height: 350px;
+   /* or use fixed height like 400px */
+}
+
+.grid-box {
+  background-color: white;
+  border-radius: 10px;
+  text-align: center;
+  
+  font-weight: bold;
+  font-size: 20px;
+  box-shadow: 0 0 20px rgba(128, 128, 128, 0.8);
+}
+.box1 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 20px; 
+  filter: brightness(60%);
+}
+.text123{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);  /* 🔥 Perfect center */
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+  background-image: transparent;
+   white-space: nowrap;
+   
+
+}
+.small-text{
+  
+  position: relative;
+  top: 10px; /* Adjust for desired top margin */
+  left: 48%;
+  transform: translateX(-50%); /* Center horizontally */
+  color: black;
+  font-size: 18px;
+  font-weight:normal ;
+  text-align: center;
+}
+.small-img{
+  width: 80px;
+  height: 80px;
+  position: relative;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.small-text-bottom{
+  position: relative;
+  bottom: 10px;       /* Margin from the bottom */
+  left: 50%;
+  transform: translateX(-50%);
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;  /* Not bold */
+}
+.grid-box-text{
+  color: gray;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: left;
+  position: relative;
+  top: 10px;
+  left: 10px;
+  
+}
+.wind-speed{
+  color: gray;
+  font-size: 40px;
+  font-weight: normal;
+  text-align: left;
+  position: relative;
+  top: 30px;
+  left: 10px;
+
+}
+.unit{
+  top: 20px;
+  color: gray;
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+}
+
+
+.sun-event {
+   padding-left: 30px; 
+   padding-top: 20px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.icon-circle {
+  background: linear-gradient(135deg, #FFD700, #FFA500);
+  border-radius: 50%;
+  color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  margin-right: 10px;
+  
+}
+
+.sun-time .main-time {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+.sun-time .sub-time {
+  font-size: 12px;
+  color: #888;
+}
+
+
+
+
+
+
