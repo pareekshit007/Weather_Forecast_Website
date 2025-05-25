@@ -139,3 +139,78 @@
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
+.header1{
+  width:1017px;
+  height:100px;
+
+}
+.switch{
+  margin-left: 40px;
+  margin-top: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+.circle {
+    width: 40px;
+    height: 40px;
+    background-color: black; /* Change to any color */
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%; /* Makes it a circle */
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 40px;
+    right: 250px;
+  }
+  .circle2 {
+    width: 40px;
+    height: 40px;
+    background-color: white; /* Change to any color */
+    color: black;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border-radius: 50%; /* Makes it a circle */
+    font-family: Arial, sans-serif;
+    position: absolute;
+    top: 40px;
+    right: 190px;
+  }
+  .userprofile{
+    top: 35px;
+    position: absolute;
+    right: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 10px;
+  }
+  .userprofile img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 10px;
+  }
+#right12 {
+  position: absolute;
+  width: 850px;
+  height: 150px;
+  right: 90px;
+  top: 130px;
+  background-color: blue;
+  border-radius: 20px;
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  align-items: center;
+}
+
+.smallbox {
+  height: 100%;
+  width: 100px;
+  background-color: white;
+  border-radius: 20px;
+}
